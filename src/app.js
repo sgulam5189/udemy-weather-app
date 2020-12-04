@@ -1,8 +1,8 @@
 const path = require('path')
 const express = require('express')
 const hbs = require('hbs')
-const geocode = require('../../weather-app/geocode')
-const forecast = require('../../weather-app/forecast')
+const geocode = require('./geocode')
+const forecast = require('./forecast')
 
 const app = express()
 const port = process.env.PORT || 3000
